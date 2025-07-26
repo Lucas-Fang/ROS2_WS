@@ -1,0 +1,18 @@
+[0.011s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic -- -j20 -l20
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.064s] [ 12%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[0.067s] [ 37%] Built target demo01_talker_str
+[0.067s] [ 62%] Built target demo02_listener_str
+[0.072s] [ 75%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.241s] [01m[K/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K/base_interfaces_demo/msg/student.hpp: No such file or directory
+[0.241s]     2 | #include [01;31m[K"/base_interfaces_demo/msg/student.hpp"[m[K
+[0.241s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.241s] compilation terminated.
+[0.244s] gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+[0.244s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+[0.244s] gmake[1]: *** Waiting for unfinished jobs....
+[2.200s] [ 87%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[2.312s] [ 87%] Built target demo04_listener_stu
+[2.313s] gmake: *** [Makefile:146: all] Error 2
+[2.315s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic -- -j20 -l20

@@ -1,0 +1,87 @@
+[0.009s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service -- -j20 -l20
+[0.025s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.025s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.025s]   contain a literal, direct call to the project() command.  Add a line of
+[0.025s]   code such as
+[0.025s] 
+[0.025s]     project(ProjectName)
+[0.025s] 
+[0.025s]   near the top of the file, but after cmake_minimum_required().
+[0.025s] 
+[0.025s]   CMake is pretending there is a "project(Project)" command on the first
+[0.025s]   line.
+[0.025s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.025s] [0m
+[0.029s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.115s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.115s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):
+[0.115s]   had incorrect arguments:
+[0.115s] 
+[0.115s]     "TRUE"
+[0.115s] 
+[0.115s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[0.115s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[0.115s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[0.115s]   command to set the policy and suppress this warning.
+[0.115s] Call Stack (most recent call first):
+[0.115s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)
+[0.115s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[0.115s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.115s]   CMakeLists.txt:52 (find_package)
+[0.115s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.115s] [0m
+[0.115s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):
+[0.115s]   had incorrect arguments:
+[0.115s] 
+[0.115s]     "TRUE"
+[0.115s] 
+[0.115s]   An argument named "TRUE" appears in a conditional statement.  Policy
+[0.115s]   CMP0012 is not set: if() recognizes numbers and boolean constants.  Run
+[0.115s]   "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy
+[0.115s]   command to set the policy and suppress this warning.
+[0.115s] Call Stack (most recent call first):
+[0.115s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)
+[0.115s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)
+[0.115s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.115s]   CMakeLists.txt:52 (find_package)
+[0.115s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.115s] [0m
+[0.117s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.117s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.117s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.117s]   set the policy and suppress this warning.
+[0.117s] 
+[0.117s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.117s]   Since the policy is not set the OLD behavior will be used.
+[0.117s] Call Stack (most recent call first):
+[0.117s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)
+[0.117s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.117s]   CMakeLists.txt:52 (find_package)
+[0.117s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.117s] [0m
+[0.117s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.118s]   if given arguments:
+[0.118s] 
+[0.118s]     "NOT" "element" "IN_LIST" "rclcpp_INCLUDE_DIRS"
+[0.118s] 
+[0.118s]   Unknown arguments specified
+[0.118s] Call Stack (most recent call first):
+[0.118s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)
+[0.118s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.118s]   CMakeLists.txt:52 (find_package)
+[0.118s] 
+[0.118s] [0m
+[0.118s] [31mCMake Error in CMakeLists.txt:
+[0.118s]   No cmake_minimum_required command is present.  A line of code such as
+[0.118s] 
+[0.118s]     cmake_minimum_required(VERSION 3.22)
+[0.118s] 
+[0.118s]   should be added at the top of the file.  The version specified may be lower
+[0.118s]   if you wish to support older CMake versions for this project.  For more
+[0.118s]   information run "cmake --help-policy CMP0000".
+[0.118s] 
+[0.118s] [0m
+[0.118s] -- Configuring incomplete, errors occurred!
+[0.118s] See also "/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service/CMakeFiles/CMakeOutput.log".
+[0.119s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.121s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service' returned '2': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service -- -j20 -l20

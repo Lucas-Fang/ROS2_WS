@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg01_helloworld_cpp -- -j20 -l20
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target helloworld[0m
+[0.073s] [100%] Built target helloworld
+[0.081s] Invoked command in '/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg01_helloworld_cpp -- -j20 -l20
+[0.087s] Invoking command in '/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg01_helloworld_cpp
+[0.091s] -- Install configuration: ""
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/lib/pkg01_helloworld_cpp/helloworld
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/ament_index/resource_index/package_run_dependencies/pkg01_helloworld_cpp
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/ament_index/resource_index/parent_prefix_path/pkg01_helloworld_cpp
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.sh
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/ament_prefix_path.dsv
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.sh
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/environment/path.dsv
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.bash
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.sh
+[0.092s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.zsh
+[0.093s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/local_setup.dsv
+[0.093s] -- Installing: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.dsv
+[0.093s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/ament_index/resource_index/packages/pkg01_helloworld_cpp
+[0.093s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig.cmake
+[0.093s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/cmake/pkg01_helloworld_cppConfig-version.cmake
+[0.093s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg01_helloworld_cpp/share/pkg01_helloworld_cpp/package.xml
+[0.094s] Invoked command in '/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg01_helloworld_cpp

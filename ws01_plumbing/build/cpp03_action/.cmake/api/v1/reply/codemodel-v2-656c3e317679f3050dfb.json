@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-7c77bef0ecc743c015fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp03_action",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp03_action_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp03_action_uninstall-7e183f21c2694af36741.json",
+					"name" : "cpp03_action_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_action_server-32c3896d84eba7cd2982.json",
+					"name" : "demo01_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_action_client-259d56057930c30d6c17.json",
+					"name" : "demo02_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a02f720d9a82c1c6d746.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp03_action",
+		"source" : "/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp03_action"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

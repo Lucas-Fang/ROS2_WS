@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9030016550b0e6a68d2a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pkg02_hellovscode_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "hellovscode::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-hellovscode-b1d3093ab64ce1b85f2f.json",
+					"name" : "hellovscode",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pkg02_hellovscode_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pkg02_hellovscode_cpp_uninstall-b2129e2e6e81e7cdd74b.json",
+					"name" : "pkg02_hellovscode_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-de6adc955c47156778a9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp",
+		"source" : "/home/xiaofang/ROS2_WS/HelloWorld_cpp/src/pkg02_hellovscode_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

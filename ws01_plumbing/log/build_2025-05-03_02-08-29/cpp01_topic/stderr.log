@@ -1,0 +1,4 @@
+[01m[K/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:[m[K In member function ‘[01m[Kvoid Listener::do_cb(const String&)[m[K’:
+[01m[K/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp01_topic/src/demo02_listener_str.cpp:17:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   17 |     void do_cb([01;35m[Kconst std_msgs::msg::String &msg[m[K)
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K

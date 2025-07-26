@@ -1,0 +1,33 @@
+[0.011s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic -- -j20 -l20
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.048s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.059s] [ 25%] Built target demo01_talker_str
+[0.060s] [ 50%] Built target demo04_listener_stu
+[0.061s] [ 75%] Built target demo02_listener_str
+[0.065s] [ 87%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[2.877s] [100%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[3.008s] [100%] Built target demo03_talker_stu
+[3.017s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic -- -j20 -l20
+[3.018s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic
+[3.025s] -- Install configuration: ""
+[3.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[3.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[3.025s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[3.026s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+[3.026s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[3.026s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[3.026s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[3.026s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[3.027s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[3.027s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[3.029s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic

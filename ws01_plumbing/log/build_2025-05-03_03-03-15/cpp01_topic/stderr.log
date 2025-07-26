@@ -1,0 +1,14 @@
+[01m[K/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76: CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/demo04_listener_stu.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp -- -j20 -l20
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target hellovscode[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/hellovscode.dir/src/hellovscode.cpp.o[0m
+[1.623s] [100%] [32m[1mLinking CXX executable hellovscode[0m
+[1.699s] [100%] Built target hellovscode
+[1.706s] Invoked command in '/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp -- -j20 -l20
+[1.712s] Invoking command in '/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp
+[1.717s] -- Install configuration: ""
+[1.717s] -- Installing: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/lib/pkg02_hellovscode_cpp/hellovscode
+[1.718s] -- Set runtime path of "/home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/lib/pkg02_hellovscode_cpp/hellovscode" to ""
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/ament_index/resource_index/package_run_dependencies/pkg02_hellovscode_cpp
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/ament_index/resource_index/parent_prefix_path/pkg02_hellovscode_cpp
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/environment/ament_prefix_path.sh
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/environment/ament_prefix_path.dsv
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/environment/path.sh
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/environment/path.dsv
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/local_setup.bash
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/local_setup.sh
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/local_setup.zsh
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/local_setup.dsv
+[1.718s] -- Installing: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/package.dsv
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/ament_index/resource_index/packages/pkg02_hellovscode_cpp
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/cmake/pkg02_hellovscode_cppConfig.cmake
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/cmake/pkg02_hellovscode_cppConfig-version.cmake
+[1.718s] -- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/package.xml
+[1.720s] Invoked command in '/home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/HelloWorld_cpp/build/pkg02_hellovscode_cpp

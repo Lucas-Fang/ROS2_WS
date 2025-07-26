@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/hellovscode.dir/src/hellovscode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hellovscode[0m
+[100%] Built target hellovscode
+-- Install configuration: ""
+-- Installing: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/lib/pkg02_hellovscode_cpp/hellovscode
+-- Set runtime path of "/home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/lib/pkg02_hellovscode_cpp/hellovscode" to ""
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/ament_index/resource_index/package_run_dependencies/pkg02_hellovscode_cpp
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/ament_index/resource_index/parent_prefix_path/pkg02_hellovscode_cpp
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/environment/path.sh
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/environment/path.dsv
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/local_setup.bash
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/local_setup.sh
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/local_setup.zsh
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/local_setup.dsv
+-- Installing: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/package.dsv
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/ament_index/resource_index/packages/pkg02_hellovscode_cpp
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/cmake/pkg02_hellovscode_cppConfig.cmake
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/cmake/pkg02_hellovscode_cppConfig-version.cmake
+-- Up-to-date: /home/xiaofang/ROS2_WS/HelloWorld_cpp/install/pkg02_hellovscode_cpp/share/pkg02_hellovscode_cpp/package.xml

@@ -1,0 +1,27 @@
+[0.009s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service -- -j20 -l20
+[0.053s] [ 50%] Built target demo02_client
+[0.053s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[1.921s] [100%] [32m[1mLinking CXX executable demo01_server[0m
+[2.009s] [100%] Built target demo01_server
+[2.018s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service -- -j20 -l20
+[2.019s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service
+[2.024s] -- Install configuration: ""
+[2.024s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server
+[2.024s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo01_server" to ""
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/lib/cpp02_service/demo02_client
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.sh
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.bash
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.sh
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.dsv
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[2.025s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service/share/cpp02_service/package.xml
+[2.026s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp02_service

@@ -1,0 +1,287 @@
+[0.000000] (-) TimerEvent: {}
+[0.000321] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.000357] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo')])}
+[0.000382] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.006044] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.006640] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[0.007306] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaofang/ROS2_WS/ws01_plumbing/build/base_interfaces_demo', '--', '-j20', '-l20'], 'cwd': '/home/xiaofang/ROS2_WS/ws01_plumbing/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'fedora'), ('GIT_ASKPASS', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a80c5e40-ef8c-475f-a3a5-695334a0ecfc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[1;36m\\]\\u@\\h\\[\x1b[00m\\]:\\[\x1b[1;34m\\]\\w\\[\x1b[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/home/xiaofang/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fccc7b6e1d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/xiaofang/ROS2_WS/ws01_plumbing/build/base_interfaces_demo'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.040098] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_c\x1b[0m\n'}
+[0.050046] (base_interfaces_demo) StdoutLine: {'line': b'[  3%] Built target base_interfaces_demo__cpp\n'}
+[0.050423] (base_interfaces_demo) StdoutLine: {'line': b'[ 12%] Built target base_interfaces_demo__rosidl_generator_c\n'}
+[0.057405] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.057700] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c\x1b[0m\n'}
+[0.057797] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.057879] (base_interfaces_demo) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_base_interfaces_demo\n'}
+[0.059737] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.059871] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.060338] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.066466] (base_interfaces_demo) StdoutLine: {'line': b'[ 22%] Built target base_interfaces_demo__rosidl_typesupport_cpp\n'}
+[0.066722] (base_interfaces_demo) StdoutLine: {'line': b'[ 32%] Built target base_interfaces_demo__rosidl_typesupport_c\n'}
+[0.067667] (base_interfaces_demo) StdoutLine: {'line': b'[ 41%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp\n'}
+[0.068709] (base_interfaces_demo) StdoutLine: {'line': b'[ 51%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c\n'}
+[0.070592] (base_interfaces_demo) StdoutLine: {'line': b'[ 61%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[0.070867] (base_interfaces_demo) StdoutLine: {'line': b'[ 70%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c\n'}
+[0.090242] (base_interfaces_demo) StdoutLine: {'line': b'[ 70%] Built target base_interfaces_demo\n'}
+[0.099462] (-) TimerEvent: {}
+[0.108588] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__py\n'}
+[0.119277] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_generator_py\x1b[0m\n'}
+[0.132267] (base_interfaces_demo) StdoutLine: {'line': b'[ 80%] Built target base_interfaces_demo__rosidl_generator_py\n'}
+[0.140925] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.142759] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.142937] (base_interfaces_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces_demo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.153891] (base_interfaces_demo) StdoutLine: {'line': b'[ 90%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[0.154101] (base_interfaces_demo) StdoutLine: {'line': b'[ 93%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext\n'}
+[0.155191] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199606] (-) TimerEvent: {}
+[0.222060] (base_interfaces_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.223289] (base_interfaces_demo) StdoutLine: {'line': b'writing base_interfaces_demo.egg-info/PKG-INFO\n'}
+[0.223476] (base_interfaces_demo) StdoutLine: {'line': b'writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt\n'}
+[0.223561] (base_interfaces_demo) StdoutLine: {'line': b'writing top-level names to base_interfaces_demo.egg-info/top_level.txt\n'}
+[0.225077] (base_interfaces_demo) StdoutLine: {'line': b"reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[0.225418] (base_interfaces_demo) StdoutLine: {'line': b"writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[0.248390] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_base_interfaces_demo_egg\n'}
+[0.257623] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.258445] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[0.266336] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xiaofang/ROS2_WS/ws01_plumbing/build/base_interfaces_demo'], 'cwd': '/home/xiaofang/ROS2_WS/ws01_plumbing/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'fedora'), ('GIT_ASKPASS', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a80c5e40-ef8c-475f-a3a5-695334a0ecfc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[1;36m\\]\\u@\\h\\[\x1b[00m\\]:\\[\x1b[1;34m\\]\\w\\[\x1b[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/home/xiaofang/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fccc7b6e1d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/xiaofang/ROS2_WS/ws01_plumbing/build/base_interfaces_demo'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble')]), 'shell': False}
+[0.274859] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.275349] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo\n'}
+[0.275498] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.275594] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.275683] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.275796] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[0.275963] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h\n'}
+[0.276050] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h\n'}
+[0.276183] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h\n'}
+[0.276255] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c\n'}
+[0.276330] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h\n'}
+[0.276398] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh\n'}
+[0.276463] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv\n'}
+[0.276530] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so\n'}
+[0.276599] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.276666] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.276753] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.276822] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[0.276906] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[0.277017] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[0.277087] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.277175] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.277274] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[0.277383] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[0.277501] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c\n'}
+[0.277576] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.277643] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\n'}
+[0.277710] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so\n'}
+[0.277781] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.277852] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.277920] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.277988] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp\n'}
+[0.278057] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[0.278130] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp\n'}
+[0.278201] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp\n'}
+[0.278272] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp\n'}
+[0.278340] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.hpp\n'}
+[0.278413] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.278480] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.278547] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[0.278611] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.278679] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps\n'}
+[0.278745] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.278810] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.278882] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[0.278948] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[0.279015] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[0.279085] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.279160] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp\n'}
+[0.279231] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[0.279299] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so\n'}
+[0.279369] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh\n'}
+[0.279437] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv\n'}
+[0.279507] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info\n'}
+[0.279583] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.279653] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.279722] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.279792] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.279862] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo\n'}
+[0.279931] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.280004] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.280075] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.280157] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.280233] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py\n'}
+[0.280306] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c\n'}
+[0.280377] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[0.280446] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.280515] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg\n'}
+[0.280586] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c\n'}
+[0.280655] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py\n'}
+[0.280724] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py\n'}
+[0.299818] (-) TimerEvent: {}
+[0.302317] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...\n"}
+[0.302455] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...\n"}
+[0.306068] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.306258] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.306384] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.306628] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[0.306745] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl\n'}
+[0.306826] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg\n'}
+[0.306901] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[0.307027] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[0.307103] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[0.307238] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[0.307357] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[0.307451] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[0.307533] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[0.307616] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[0.307766] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[0.307885] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[0.307968] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[0.308040] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[0.308110] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake\n'}
+[0.308190] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.308259] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.308330] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.308401] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.308472] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.308546] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake\n'}
+[0.308617] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.308692] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake\n'}
+[0.308763] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.308839] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.308978] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.309041] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.309079] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake\n'}
+[0.309116] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.309160] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake\n'}
+[0.309200] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.309233] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[0.309267] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.309299] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.309331] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.309362] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.309401] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.309433] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.309562] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[0.310003] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[0.310150] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[0.310424] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[0.325799] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[0.326534] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.333307] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.334200] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.334432] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic', '--', '-j20', '-l20'], 'cwd': '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', 'fedora'), ('GIT_ASKPASS', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/helpers/browser.sh'), ('HOME', '/root'), ('TERM_PROGRAM_VERSION', '1.99.3'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-a80c5e40-ef8c-475f-a3a5-695334a0ecfc.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/extensions/git/dist/askpass-main.js'), ('PS1', '\\[\x1b]633;A\x07\\]\\[\x1b[1;36m\\]\\u@\\h\\[\x1b[00m\\]:\\[\x1b[1;34m\\]\\w\\[\x1b[00m\\]$ \\[\x1b]633;B\x07\\]'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/root/.vscode-server/bin/17baf841131aa23349f217ca7c570c76ee87b957/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock","/root/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/home/xiaofang/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fccc7b6e1d.sock'), ('TERM_PROGRAM', 'vscode'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-78846b09-f3a5-46ca-9959-f76f5327c1b4.sock'), ('ROS_DOMAIN_ID', '6'), ('AMENT_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic'), ('QT_QPA_PLATFORM', 'xcb'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.356556] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399944] (-) TimerEvent: {}
+[0.464940] (cpp01_topic) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.490185] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.491793] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.497075] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.500050] (-) TimerEvent: {}
+[0.505926] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.514581] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.543663] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.545311] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600225] (-) TimerEvent: {}
+[0.657046] (cpp01_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700332] (-) TimerEvent: {}
+[0.706389] (cpp01_topic) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[0.715290] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.774742] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.774933] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.775010] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.775346] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.775978] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.776084] (cpp01_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.776295] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.776908] (cpp01_topic) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.787239] (cpp01_topic) StdoutLine: {'line': b'-- Generating done\n'}
+[0.790922] (cpp01_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic\n'}
+[0.800415] (-) TimerEvent: {}
+[0.813541] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_listener_str\x1b[0m\n'}
+[0.813764] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_talker_str\x1b[0m\n'}
+[0.820258] (cpp01_topic) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o\x1b[0m\n'}
+[0.823196] (cpp01_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o\x1b[0m\n'}
+[0.826709] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[0.826892] (cpp01_topic) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[0.826972] (cpp01_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.827044] (cpp01_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[0.827115] (cpp01_topic) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o\x1b[0m\n'}
+[0.827273] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1\n'}
+[0.827517] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2\n'}
+[0.827605] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.827728] (cpp01_topic) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o\x1b[0m\n'}
+[0.830197] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp01_topic/src/demo04_listener_stu.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[0.830314] (cpp01_topic) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[0.830380] (cpp01_topic) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.830444] (cpp01_topic) StderrLine: {'line': b'compilation terminated.\n'}
+[0.830821] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo04_listener_stu.dir/build.make:76: CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o] Error 1\n'}
+[0.831014] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/demo04_listener_stu.dir/all] Error 2\n'}
+[0.900532] (-) TimerEvent: {}
+[1.000868] (-) TimerEvent: {}
+[1.101330] (-) TimerEvent: {}
+[1.201675] (-) TimerEvent: {}
+[1.301990] (-) TimerEvent: {}
+[1.402312] (-) TimerEvent: {}
+[1.502635] (-) TimerEvent: {}
+[1.603071] (-) TimerEvent: {}
+[1.703401] (-) TimerEvent: {}
+[1.803769] (-) TimerEvent: {}
+[1.904144] (-) TimerEvent: {}
+[2.004470] (-) TimerEvent: {}
+[2.104886] (-) TimerEvent: {}
+[2.205238] (-) TimerEvent: {}
+[2.305760] (-) TimerEvent: {}
+[2.406662] (-) TimerEvent: {}
+[2.507069] (-) TimerEvent: {}
+[2.607481] (-) TimerEvent: {}
+[2.707782] (-) TimerEvent: {}
+[2.808253] (-) TimerEvent: {}
+[2.908584] (-) TimerEvent: {}
+[3.008874] (-) TimerEvent: {}
+[3.109250] (-) TimerEvent: {}
+[3.209658] (-) TimerEvent: {}
+[3.310104] (-) TimerEvent: {}
+[3.410573] (-) TimerEvent: {}
+[3.510949] (-) TimerEvent: {}
+[3.611354] (-) TimerEvent: {}
+[3.711659] (-) TimerEvent: {}
+[3.812066] (-) TimerEvent: {}
+[3.912350] (-) TimerEvent: {}
+[4.012643] (-) TimerEvent: {}
+[4.112981] (-) TimerEvent: {}
+[4.191849] (cpp01_topic) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable demo01_talker_str\x1b[0m\n'}
+[4.213196] (-) TimerEvent: {}
+[4.313510] (-) TimerEvent: {}
+[4.413919] (-) TimerEvent: {}
+[4.445595] (cpp01_topic) StdoutLine: {'line': b'[ 62%] Built target demo01_talker_str\n'}
+[4.514103] (-) TimerEvent: {}
+[4.614417] (-) TimerEvent: {}
+[4.714731] (-) TimerEvent: {}
+[4.815057] (-) TimerEvent: {}
+[4.915330] (-) TimerEvent: {}
+[5.015588] (-) TimerEvent: {}
+[5.115926] (-) TimerEvent: {}
+[5.216260] (-) TimerEvent: {}
+[5.316711] (-) TimerEvent: {}
+[5.417031] (-) TimerEvent: {}
+[5.517385] (-) TimerEvent: {}
+[5.617751] (-) TimerEvent: {}
+[5.718115] (-) TimerEvent: {}
+[5.818449] (-) TimerEvent: {}
+[5.918761] (-) TimerEvent: {}
+[6.019206] (-) TimerEvent: {}
+[6.119540] (-) TimerEvent: {}
+[6.219928] (-) TimerEvent: {}
+[6.320332] (-) TimerEvent: {}
+[6.420671] (-) TimerEvent: {}
+[6.520997] (-) TimerEvent: {}
+[6.621259] (-) TimerEvent: {}
+[6.721500] (-) TimerEvent: {}
+[6.821965] (-) TimerEvent: {}
+[6.913593] (cpp01_topic) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable demo02_listener_str\x1b[0m\n'}
+[6.922097] (-) TimerEvent: {}
+[7.022343] (-) TimerEvent: {}
+[7.122626] (-) TimerEvent: {}
+[7.172967] (cpp01_topic) StdoutLine: {'line': b'[ 75%] Built target demo02_listener_str\n'}
+[7.173976] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.176066] (cpp01_topic) CommandEnded: {'returncode': 2}
+[7.183238] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[7.193835] (-) EventReactorShutdown: {}

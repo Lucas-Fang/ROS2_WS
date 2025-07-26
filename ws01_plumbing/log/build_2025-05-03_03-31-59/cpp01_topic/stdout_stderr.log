@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[ 37%] Built target demo01_talker_str
+[ 62%] Built target demo02_listener_str
+[ 75%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[01m[K/home/xiaofang/ROS2_WS/ws01_plumbing/src/cpp01_topic/src/demo03_talker_stu.cpp:2:10:[m[K [01;31m[Kfatal error: [m[K/base_interfaces_demo/msg/student.hpp: No such file or directory
+    2 | #include [01;31m[K"/base_interfaces_demo/msg/student.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo03_talker_stu.dir/build.make:76: CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/demo03_talker_stu.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 87%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[ 87%] Built target demo04_listener_stu
+gmake: *** [Makefile:146: all] Error 2
