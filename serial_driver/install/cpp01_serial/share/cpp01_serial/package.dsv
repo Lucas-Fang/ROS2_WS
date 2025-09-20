@@ -1,0 +1,8 @@
+source;share/cpp01_serial/hook/cmake_prefix_path.ps1
+source;share/cpp01_serial/hook/cmake_prefix_path.dsv
+source;share/cpp01_serial/hook/cmake_prefix_path.sh
+source;share/cpp01_serial/local_setup.bash
+source;share/cpp01_serial/local_setup.dsv
+source;share/cpp01_serial/local_setup.ps1
+source;share/cpp01_serial/local_setup.sh
+source;share/cpp01_serial/local_setup.zsh

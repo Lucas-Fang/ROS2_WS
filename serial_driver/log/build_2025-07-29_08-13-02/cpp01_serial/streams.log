@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial -- -j20 -l20
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target demo01_uart_send[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o[0m
+[1.906s] [100%] [32m[1mLinking CXX executable demo01_uart_send[0m
+[1.987s] [100%] Built target demo01_uart_send
+[1.994s] Invoked command in '/home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial -- -j20 -l20
+[2.002s] Invoking command in '/home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial
+[2.008s] -- Install configuration: ""
+[2.008s] -- Installing: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/lib/cpp01_serial/demo01_uart_send
+[2.008s] -- Set runtime path of "/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/lib/cpp01_serial/demo01_uart_send" to ""
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/ament_index/resource_index/package_run_dependencies/cpp01_serial
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/ament_index/resource_index/parent_prefix_path/cpp01_serial
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.sh
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.dsv
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/path.sh
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/path.dsv
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/local_setup.bash
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/local_setup.sh
+[2.008s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/local_setup.zsh
+[2.009s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/local_setup.dsv
+[2.009s] -- Installing: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/package.dsv
+[2.009s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/ament_index/resource_index/packages/cpp01_serial
+[2.009s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/cmake/cpp01_serialConfig.cmake
+[2.009s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/cmake/cpp01_serialConfig-version.cmake
+[2.009s] -- Up-to-date: /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/package.xml
+[2.010s] Invoked command in '/home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial

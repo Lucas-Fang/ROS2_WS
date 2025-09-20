@@ -1,0 +1,13 @@
+[01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:[m[K In function ‘[01m[Kbool parse_data(const uint8_t*, size_t)[m[K’:
+[01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:150:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kreturn[m[K’
+  150 |       std::cout<<"zhen tou zhen wei cuo wu!"
+      |                                             [01;31m[K^[m[K
+      |                                             [32m[K;[m[K
+  151 |     [32m[Kreturn[m[K false;
+      |     [32m[K~~~~~~[m[K                                   
+[01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:155:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  155 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/demo01_uart_send.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

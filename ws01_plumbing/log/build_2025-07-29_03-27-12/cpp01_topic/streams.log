@@ -1,0 +1,66 @@
+[0.009s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp03_action:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic -- -j20 -l20
+[0.025s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.109s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.127s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.128s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.131s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.251s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.279s] -- Found base_interfaces_demo: 0.0.0 (/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.311s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.354s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.355s] -- Configured cppcheck include dirs: 
+[0.355s] -- Configured cppcheck exclude dirs and/or files: 
+[0.355s] -- Added test 'lint_cmake' to check CMake code style
+[0.355s] -- Added test 'uncrustify' to check C / C++ code style
+[0.355s] -- Configured uncrustify additional arguments: 
+[0.355s] -- Added test 'xmllint' to check XML markup files
+[0.356s] -- Configuring done
+[0.369s] -- Generating done
+[0.374s] -- Build files have been written to: /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic
+[0.390s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.390s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.402s] [ 12%] [32mBuilding CXX object CMakeFiles/demo03_talker_stu.dir/src/demo03_talker_stu.cpp.o[0m
+[0.402s] [ 50%] [32mBuilding CXX object CMakeFiles/demo04_listener_stu.dir/src/demo04_listener_stu.cpp.o[0m
+[0.402s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o[0m
+[0.402s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[3.149s] [ 62%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[3.271s] [ 75%] [32m[1mLinking CXX executable demo03_talker_stu[0m
+[3.284s] [ 75%] Built target demo01_talker_str
+[3.390s] [ 75%] Built target demo03_talker_stu
+[5.234s] [ 87%] [32m[1mLinking CXX executable demo02_listener_str[0m
+[5.420s] [100%] [32m[1mLinking CXX executable demo04_listener_stu[0m
+[5.462s] [100%] Built target demo02_listener_str
+[5.635s] [100%] Built target demo04_listener_stu
+[5.644s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp03_action:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic -- -j20 -l20
+[5.645s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp03_action:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic
+[5.650s] -- Install configuration: ""
+[5.650s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[5.651s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[5.651s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[5.652s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""
+[5.652s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[5.653s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu" to ""
+[5.653s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[5.654s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu" to ""
+[5.654s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[5.654s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[5.655s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[5.655s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[5.655s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[5.655s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[5.656s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[5.656s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[5.656s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[5.656s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[5.656s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[5.656s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[5.656s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[5.656s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[5.656s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[5.657s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp03_action:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp02_service:/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic

@@ -1,0 +1,21 @@
+<launch>
+    <!-- 设置节点信息 -->
+     <node  pkg="turtlesim" 
+            exec="turtlesim_node" 
+            name="t1" 
+            namespace="t1_ns" 
+            exec_name="t1_label" 
+            respawn="true"/>
+
+    <!-- 设置服务参数 -->
+    <node pkg="turtlesim" exec="turtlesim_node" name="t2">
+        <!-- <param name="background_r" value="255" />
+            <param name="background_g" value="255" />
+            <param name="background_b" value="255" /> -->
+        <param from="$(find-pkg-share cpp01_launch)/config/t2.yaml" />
+    </node>
+
+    <!-- 设置新的命名空间 -->
+    <node pkg="turtlesim" exec="turtlesim_node" name="t1" ros_args="--remap __ns:/xxx/yyy" />
+    
+</launch>

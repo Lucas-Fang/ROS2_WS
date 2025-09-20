@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble LD_LIBRARY_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic -- -j20 -l20
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target demo04_listener_stu[0m
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target demo03_talker_stu[0m
+[0.040s] [35m[1mConsolidate compiler generated dependencies of target demo02_listener_str[0m
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker_str[0m
+[0.049s] [ 25%] Built target demo04_listener_stu
+[0.052s] [ 50%] Built target demo01_talker_str
+[0.052s] [ 75%] Built target demo03_talker_stu
+[0.053s] [100%] Built target demo02_listener_str
+[0.061s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble LD_LIBRARY_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic -- -j20 -l20
+[0.062s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic': AMENT_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble LD_LIBRARY_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic
+[0.067s] -- Install configuration: ""
+[0.067s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[0.067s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str
+[0.067s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo03_talker_stu
+[0.067s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo04_listener_stu
+[0.067s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[0.068s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[0.068s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[0.077s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic' returned '0': AMENT_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble LD_LIBRARY_PATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xiaofang/ROS2_WS/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp01_topic

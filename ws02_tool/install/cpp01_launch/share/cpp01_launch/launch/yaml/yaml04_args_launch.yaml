@@ -1,0 +1,13 @@
+launch:
+# 1.声明参数
+- arg:
+    name: "bgr"
+    default: "255"
+- node:
+    pkg: "turtlesim"
+    exec: "turtlesim_node"
+    param:
+    # 2.调用参数
+    -
+      name: "background_r"
+      value: $(var bgr)

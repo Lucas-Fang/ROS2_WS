@@ -1,0 +1,16 @@
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/lib/cpp01_serial/demo01_uart_send
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/ament_index/resource_index/package_run_dependencies/cpp01_serial
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/ament_index/resource_index/parent_prefix_path/cpp01_serial
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.sh
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.dsv
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/path.sh
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/path.dsv
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/local_setup.bash
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/local_setup.sh
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/local_setup.zsh
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/local_setup.dsv
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/package.dsv
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/ament_index/resource_index/packages/cpp01_serial
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/cmake/cpp01_serialConfig.cmake
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/cmake/cpp01_serialConfig-version.cmake
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/package.xml

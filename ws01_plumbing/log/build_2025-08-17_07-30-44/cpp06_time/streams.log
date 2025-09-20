@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp06_time -- -j20 -l20
+[0.032s] [35m[1mConsolidate compiler generated dependencies of target demo1_time[0m
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/demo1_time.dir/src/demo1_time.cpp.o[0m
+[1.468s] [100%] [32m[1mLinking CXX executable demo1_time[0m
+[1.528s] [100%] Built target demo1_time
+[1.534s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp06_time -- -j20 -l20
+[1.539s] Invoking command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp06_time
+[1.545s] -- Install configuration: ""
+[1.546s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo1_time
+[1.546s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/lib/cpp06_time/demo1_time" to ""
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.sh
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.bash
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.sh
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[1.546s] -- Installing: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.dsv
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[1.546s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[1.547s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[1.547s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws01_plumbing/install/cpp06_time/share/cpp06_time/package.xml
+[1.548s] Invoked command in '/home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws01_plumbing/build/cpp06_time

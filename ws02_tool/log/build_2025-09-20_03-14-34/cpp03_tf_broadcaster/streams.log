@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp03_tf_broadcaster -- -j20 -l20
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target demo01_static_tf_broadcaster[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_static_tf_broadcaster.dir/src/demo01_static_tf_broadcaster.cpp.o[0m
+[2.194s] [100%] [32m[1mLinking CXX executable demo01_static_tf_broadcaster[0m
+[2.303s] [100%] Built target demo01_static_tf_broadcaster
+[2.309s] Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp03_tf_broadcaster -- -j20 -l20
+[2.315s] Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws02_tool/build/cpp03_tf_broadcaster
+[2.319s] -- Install configuration: ""
+[2.319s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster
+[2.320s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf_broadcaster" to ""
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv
+[2.320s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake
+[2.320s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml
+[2.322s] Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws02_tool/build/cpp03_tf_broadcaster

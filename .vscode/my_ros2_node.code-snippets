@@ -1,0 +1,44 @@
+{
+	// Place your ROS2_WS workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+"ROS2节点模板(C++)": {
+    "prefix": "ros2_node_cpp",
+    "body": [
+      "#include \"rclcpp/rclcpp.hpp\"",
+      "",
+      "class MyNode: public rclcpp::Node",
+      "{",
+      "  public:",
+      "    MyNode():Node(\"mynode_node_cpp\")",
+      "    {",
+      "      RCLCPP_INFO(this->get_logger(),\"Hello World!\");",
+      "    }",
+      "};",
+      "",
+      "int main(int argc, char ** argv)",
+      "{",
+      "  rclcpp::init(argc,argv);",
+      "",
+      "  rclcpp::spin(std::make_shared<MyNode>());",
+      "",
+      "  rclcpp::shutdown();",
+      "  return 0;",
+      "}"
+    ],
+    "description": "ROS2节点模板(C++)"
+  }
+}

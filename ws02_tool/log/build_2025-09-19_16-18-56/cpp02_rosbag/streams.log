@@ -1,0 +1,51 @@
+[0.008s] Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag -- -j20 -l20
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.133s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.156s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.158s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.163s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.170s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.179s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.202s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.203s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.290s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.324s] -- Found rosbag2_cpp: 0.15.14 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.343s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.352s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.395s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.395s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/xiaofang/ROS2_WS/ws02_tool/src/cpp02_rosbag/include>
+[0.395s] -- Configured cppcheck exclude dirs and/or files: 
+[0.396s] -- Added test 'lint_cmake' to check CMake code style
+[0.396s] -- Added test 'uncrustify' to check C / C++ code style
+[0.396s] -- Configured uncrustify additional arguments: 
+[0.396s] -- Added test 'xmllint' to check XML markup files
+[0.397s] -- Configuring done
+[0.405s] -- Generating done
+[0.408s] -- Build files have been written to: /home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target demo01_writer[0m
+[0.432s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_reader.dir/src/demo02_reader.cpp.o[0m
+[0.438s] [ 75%] Built target demo01_writer
+[2.100s] [100%] [32m[1mLinking CXX executable demo02_reader[0m
+[2.189s] [100%] Built target demo02_reader
+[2.196s] Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag -- -j20 -l20
+[2.202s] Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag
+[2.207s] -- Install configuration: ""
+[2.207s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/lib/cpp02_rosbag/demo01_writer
+[2.207s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader
+[2.208s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/lib/cpp02_rosbag/demo02_reader" to ""
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/ament_index/resource_index/package_run_dependencies/cpp02_rosbag
+[2.208s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/ament_index/resource_index/parent_prefix_path/cpp02_rosbag
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.sh
+[2.208s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/environment/ament_prefix_path.dsv
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.sh
+[2.208s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/environment/path.dsv
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.bash
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.sh
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.zsh
+[2.208s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/local_setup.dsv
+[2.208s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/package.dsv
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/ament_index/resource_index/packages/cpp02_rosbag
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig.cmake
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/cmake/cpp02_rosbagConfig-version.cmake
+[2.208s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp02_rosbag/share/cpp02_rosbag/package.xml
+[2.209s] Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws02_tool/build/cpp02_rosbag
