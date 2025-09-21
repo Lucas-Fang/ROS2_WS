@@ -1,0 +1,33 @@
+[0.010s] Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise -- -j20 -l20
+[0.052s] [35m[1mConsolidate compiler generated dependencies of target exer03_tf_listener[0m
+[0.062s] [ 33%] Built target exer02_tf_broadcaster
+[0.066s] [ 50%] [32mBuilding CXX object CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o[0m
+[0.073s] [ 83%] Built target exer03_tf_listener
+[2.374s] [100%] [32m[1mLinking CXX executable exer01_spawn[0m
+[2.525s] [100%] Built target exer01_spawn
+[2.533s] Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise -- -j20 -l20
+[2.541s] Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise
+[2.554s] -- Install configuration: ""
+[2.554s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn
+[2.556s] -- Set runtime path of "/home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/lib/cpp05_exercise/exer01_spawn" to ""
+[2.556s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/lib/cpp05_exercise/exer02_tf_broadcaster
+[2.556s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/lib/cpp05_exercise/exer03_tf_listener
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/launch
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/launch/escort_launch.py
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/launch/follow_launch.py
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/ament_index/resource_index/package_run_dependencies/cpp05_exercise
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/ament_index/resource_index/parent_prefix_path/cpp05_exercise
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.sh
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/environment/ament_prefix_path.dsv
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/environment/path.sh
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/environment/path.dsv
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/local_setup.bash
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/local_setup.sh
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/local_setup.zsh
+[2.557s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/local_setup.dsv
+[2.558s] -- Installing: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/package.dsv
+[2.558s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/ament_index/resource_index/packages/cpp05_exercise
+[2.558s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig.cmake
+[2.558s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/cmake/cpp05_exerciseConfig-version.cmake
+[2.558s] -- Up-to-date: /home/xiaofang/ROS2_WS/ws02_tool/install/cpp05_exercise/share/cpp05_exercise/package.xml
+[2.559s] Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise

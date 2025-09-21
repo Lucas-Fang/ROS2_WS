@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target exer02_tf_broadcaster[0m
+[35m[1mConsolidate compiler generated dependencies of target exer01_spawn[0m
+[35m[1mConsolidate compiler generated dependencies of target exer03_tf_listener[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o[0m
+[ 50%] Built target exer02_tf_broadcaster
+[ 83%] Built target exer03_tf_listener
+[01m[K/home/xiaofang/ROS2_WS/ws02_tool/src/cpp05_exercise/src/exer01_spawn.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xiaofang/ROS2_WS/ws02_tool/src/cpp05_exercise/src/exer01_spawn.cpp:51:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   51 |   [01;31m[K}[m[K
+      |   [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/exer01_spawn.dir/build.make:76: CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/exer01_spawn.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

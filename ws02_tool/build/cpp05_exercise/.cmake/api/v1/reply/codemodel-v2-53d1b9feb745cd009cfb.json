@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ddcf84680ac5dbc525f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp05_exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp05_exercise_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp05_exercise_uninstall-26c9abd3983a332176a5.json",
+					"name" : "cpp05_exercise_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer01_spawn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer01_spawn-66d7706954d5ac4ea122.json",
+					"name" : "exer01_spawn",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer02_tf_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer02_tf_broadcaster-a5bc0f19f9b9ab40bbb2.json",
+					"name" : "exer02_tf_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer03_tf_listener::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer03_tf_listener-a228f32704946d35ebd0.json",
+					"name" : "exer03_tf_listener",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f89cd819ed9b825491a6.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise",
+		"source" : "/home/xiaofang/ROS2_WS/ws02_tool/src/cpp05_exercise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

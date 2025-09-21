@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000251] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000267] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000279] (-) JobUnselected: {'identifier': 'cpp03_tf_broadcaster'}
+[0.000286] (-) JobUnselected: {'identifier': 'cpp04_tf_listener'}
+[0.000293] (-) EventReactorShutdown: {}

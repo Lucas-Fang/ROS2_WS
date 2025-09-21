@@ -1,0 +1,2 @@
+Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener -- -j20 -l20
+Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener -- -j20 -l20

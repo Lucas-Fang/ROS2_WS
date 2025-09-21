@@ -1,18 +1,9 @@
-#include <functional>
-#include <geometry_msgs/msg/detail/transform_stamped__struct.hpp>
-#include <geometry_msgs/msg/transform_stamped.hpp>
+#include <rclcpp/rclcpp.hpp>//
+#include <tf2/LinearMath/Quaternion.h>//
+#include <tf2_ros/transform_broadcaster.h>//
+#include <turtlesim/msg/pose.hpp>//
 
-#include <memory>
-#include <rclcpp/rclcpp.hpp>
-#include <rclcpp/subscription_base.hpp>
-#include <tf2/LinearMath/Quaternion.h>
-#include <tf2/LinearMath/Quaternion.hpp>
-#include <tf2_ros/qos.hpp>
-#include <tf2_ros/transform_broadcaster.h>
-#include <turtlesim/msg/detail/pose__struct.hpp>
-#include <turtlesim/msg/pose.hpp>
-
-using std::placeholders::_1;
+// using std::placeholders::_1;
 
 class TFDynaBroadcaster: public rclcpp::Node
 {

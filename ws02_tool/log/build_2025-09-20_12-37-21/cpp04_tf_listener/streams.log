@@ -1,0 +1,41 @@
+[0.006s] Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener -- -j20 -l20
+[0.026s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.103s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.119s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.120s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.123s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.128s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.134s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.151s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.152s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.252s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.260s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.301s] -- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.302s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.303s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.306s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.346s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.346s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/xiaofang/ROS2_WS/ws02_tool/src/cpp04_tf_listener/include>
+[0.346s] -- Configured cppcheck exclude dirs and/or files: 
+[0.346s] -- Added test 'lint_cmake' to check CMake code style
+[0.347s] -- Added test 'uncrustify' to check C / C++ code style
+[0.347s] -- Configured uncrustify additional arguments: 
+[0.347s] -- Added test 'xmllint' to check XML markup files
+[0.347s] -- Configuring done
+[0.355s] -- Generating done
+[0.358s] -- Build files have been written to: /home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target demo02_tf_filter[0m
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target demo01_tf_listener[0m
+[0.385s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_tf_filter.dir/src/demo02_tf_filter.cpp.o[0m
+[0.387s] [ 75%] Built target demo01_tf_listener
+[5.108s] [100%] [32m[1mLinking CXX executable demo02_tf_filter[0m
+[5.325s] /usr/bin/ld: CMakeFiles/demo02_tf_filter.dir/src/demo02_tf_filter.cpp.o: in function `geometry_msgs::msg::PointStamped_<std::allocator<void> >& tf2_ros::BufferInterface::transform<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&, geometry_msgs::msg::PointStamped_<std::allocator<void> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::chrono::duration<long, std::ratio<1l, 1000000000l> >) const':
+[5.325s] demo02_tf_filter.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0x5a): undefined reference to `std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long, std::ratio<1l, 1000000000l> > > tf2::getTimestamp<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&)'
+[5.325s] /usr/bin/ld: demo02_tf_filter.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0x7a): undefined reference to `std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > tf2::getFrameId<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&)'
+[5.325s] /usr/bin/ld: demo02_tf_filter.cpp:(.text._ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE[_ZNK7tf2_ros15BufferInterface9transformIN13geometry_msgs3msg13PointStamped_ISaIvEEEEERT_RKS7_S8_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENSt6chrono8durationIlSt5ratioILl1ELl1000000000EEEE]+0xcf): undefined reference to `void tf2::doTransform<geometry_msgs::msg::PointStamped_<std::allocator<void> > >(geometry_msgs::msg::PointStamped_<std::allocator<void> > const&, geometry_msgs::msg::PointStamped_<std::allocator<void> >&, geometry_msgs::msg::TransformStamped_<std::allocator<void> > const&)'
+[5.345s] collect2: error: ld returned 1 exit status
+[5.346s] gmake[2]: *** [CMakeFiles/demo02_tf_filter.dir/build.make:198: demo02_tf_filter] Error 1
+[5.346s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo02_tf_filter.dir/all] Error 2
+[5.347s] gmake: *** [Makefile:146: all] Error 2
+[5.348s] Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp04_tf_listener -- -j20 -l20

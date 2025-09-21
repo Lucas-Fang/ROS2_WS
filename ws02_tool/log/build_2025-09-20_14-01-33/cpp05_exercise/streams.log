@@ -1,0 +1,15 @@
+[0.007s] Invoking command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise -- -j20 -l20
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target exer02_tf_broadcaster[0m
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target exer01_spawn[0m
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target exer03_tf_listener[0m
+[0.043s] [ 16%] [32mBuilding CXX object CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o[0m
+[0.045s] [ 50%] Built target exer02_tf_broadcaster
+[0.047s] [ 83%] Built target exer03_tf_listener
+[1.231s] [01m[K/home/xiaofang/ROS2_WS/ws02_tool/src/cpp05_exercise/src/exer01_spawn.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.231s] [01m[K/home/xiaofang/ROS2_WS/ws02_tool/src/cpp05_exercise/src/exer01_spawn.cpp:51:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.231s]    51 |   [01;31m[K}[m[K
+[1.232s]       |   [01;31m[K^[m[K
+[1.514s] gmake[2]: *** [CMakeFiles/exer01_spawn.dir/build.make:76: CMakeFiles/exer01_spawn.dir/src/exer01_spawn.cpp.o] Error 1
+[1.514s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/exer01_spawn.dir/all] Error 2
+[1.514s] gmake: *** [Makefile:146: all] Error 2
+[1.515s] Invoked command in '/home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws02_tool/build/cpp05_exercise -- -j20 -l20
