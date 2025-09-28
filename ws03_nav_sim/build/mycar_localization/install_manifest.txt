@@ -1,0 +1,17 @@
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/launch/mycar_loca.launch.py
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/params/amcl.yaml
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/ament_index/resource_index/package_run_dependencies/mycar_localization
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/ament_index/resource_index/parent_prefix_path/mycar_localization
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/environment/ament_prefix_path.sh
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/environment/ament_prefix_path.dsv
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/environment/path.sh
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/environment/path.dsv
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/local_setup.bash
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/local_setup.sh
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/local_setup.zsh
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/local_setup.dsv
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.dsv
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/ament_index/resource_index/packages/mycar_localization
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/cmake/mycar_localizationConfig.cmake
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/cmake/mycar_localizationConfig-version.cmake
+/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.xml

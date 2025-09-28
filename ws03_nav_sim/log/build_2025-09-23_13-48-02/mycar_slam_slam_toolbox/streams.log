@@ -1,0 +1,105 @@
+[0.007s] Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_slam_slam_toolbox -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.249s] -- Detecting C compiler ABI info
+[0.348s] -- Detecting C compiler ABI info - done
+[0.353s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.354s] -- Detecting C compile features
+[0.354s] -- Detecting C compile features - done
+[0.357s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.446s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.446s] -- Detecting CXX compile features
+[0.446s] -- Detecting CXX compile features - done
+[0.454s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.598s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.689s] -- Found slam_toolbox: 2.6.9 (/opt/ros/humble/share/slam_toolbox/cmake)
+[0.750s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.755s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.763s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.774s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.789s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.921s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.924s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.038s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.069s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.110s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.121s] -- Looking for pthread.h
+[1.227s] -- Looking for pthread.h - found
+[1.228s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.329s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.330s] -- Found Threads: TRUE  
+[1.516s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.517s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.517s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.557s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.564s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.566s] -- Found OGRE
+[1.566s] --   static     : OFF
+[1.566s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.566s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.566s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.566s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.566s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.566s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.566s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.566s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.566s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.566s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.566s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.567s] -- Could not find freeimage library
+[1.582s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.588s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.687s] -- Found X11: /usr/include   
+[1.688s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.798s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.798s] -- Looking for gethostbyname
+[1.895s] -- Looking for gethostbyname - found
+[1.895s] -- Looking for connect
+[1.985s] -- Looking for connect - found
+[1.985s] -- Looking for remove
+[2.078s] -- Looking for remove - found
+[2.078s] -- Looking for shmat
+[2.164s] -- Looking for shmat - found
+[2.164s] -- Looking for IceConnectionNumber in ICE
+[2.247s] -- Looking for IceConnectionNumber in ICE - found
+[2.354s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.453s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.522s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.522s] -- Added test 'lint_cmake' to check CMake code style
+[2.522s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.523s] -- Added test 'xmllint' to check XML markup files
+[2.524s] -- Configuring done
+[2.528s] -- Generating done
+[2.530s] [33mCMake Warning:
+[2.530s]   Manually-specified variables were not used by the project:
+[2.530s] 
+[2.530s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[2.530s] 
+[2.530s] [0m
+[2.530s] -- Build files have been written to: /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox
+[2.538s] Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_slam_slam_toolbox -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox
+[2.540s] Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox -- -j20 -l20
+[2.588s] Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox -- -j20 -l20
+[2.600s] Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox
+[2.609s] -- Install configuration: ""
+[2.609s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/launch
+[2.609s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/launch/online_sync_launch.py
+[2.609s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/params
+[2.609s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/params/mapper_params_online_sync.yaml
+[2.609s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/package_run_dependencies/mycar_slam_slam_toolbox
+[2.610s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/parent_prefix_path/mycar_slam_slam_toolbox
+[2.610s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/ament_prefix_path.sh
+[2.610s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/ament_prefix_path.dsv
+[2.610s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/path.sh
+[2.610s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/environment/path.dsv
+[2.610s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.bash
+[2.611s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.sh
+[2.611s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.zsh
+[2.611s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/local_setup.dsv
+[2.611s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.dsv
+[2.611s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/ament_index/resource_index/packages/mycar_slam_slam_toolbox
+[2.611s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/cmake/mycar_slam_slam_toolboxConfig.cmake
+[2.611s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/cmake/mycar_slam_slam_toolboxConfig-version.cmake
+[2.611s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.xml
+[2.613s] Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox

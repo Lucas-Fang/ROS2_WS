@@ -1,0 +1,58 @@
+[0.010s] Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/xiaofang/ROS2_WS/ws03_nav_sim/src/demo_gazebo_sim -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim
+[0.061s] -- The C compiler identification is GNU 11.4.0
+[0.113s] -- The CXX compiler identification is GNU 11.4.0
+[0.120s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.192s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.192s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.194s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.264s] -- Detecting CXX compile features - done
+[0.266s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.396s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.467s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.522s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.523s] -- Added test 'lint_cmake' to check CMake code style
+[0.523s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.524s] -- Added test 'xmllint' to check XML markup files
+[0.524s] -- Configuring done
+[0.526s] -- Generating done
+[0.526s] [33mCMake Warning:
+[0.526s]   Manually-specified variables were not used by the project:
+[0.526s] 
+[0.527s]     CMAKE_EXPORT_COMPILE_COMMANDS
+[0.527s] 
+[0.527s] [0m
+[0.527s] -- Build files have been written to: /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim
+[0.530s] Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/xiaofang/ROS2_WS/ws03_nav_sim/src/demo_gazebo_sim -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim
+[0.531s] Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim -- -j20 -l20
+[0.563s] Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim -- -j20 -l20
+[0.569s] Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim
+[0.574s] -- Install configuration: ""
+[0.574s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/rviz
+[0.574s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/rviz/sim.rviz
+[0.575s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/world
+[0.575s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/world/house.sdf
+[0.575s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/world/visualize_lidar.sdf
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/launch
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_demo.launch.py
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/launch/gazebo_sim_world.launch.py
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/ament_index/resource_index/package_run_dependencies/demo_gazebo_sim
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/ament_index/resource_index/parent_prefix_path/demo_gazebo_sim
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/ament_prefix_path.sh
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/ament_prefix_path.dsv
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/path.sh
+[0.576s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/environment/path.dsv
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.bash
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.sh
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.zsh
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/local_setup.dsv
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/ament_index/resource_index/packages/demo_gazebo_sim
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/cmake/demo_gazebo_simConfig.cmake
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/cmake/demo_gazebo_simConfig-version.cmake
+[0.577s] -- Installing: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.xml
+[0.578s] Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim

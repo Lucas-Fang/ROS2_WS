@@ -1,0 +1,734 @@
+[0.092s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.092s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7eff0eec5e10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7eff0eec57b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7eff0eec57b0>>, mixin_verb=('build',))
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.199s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/xiaofang/ROS2_WS/ws03_nav_sim'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.199s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/meshes) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Desk/thumbnails) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/meshes) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/NormalBed/thumbnails) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extension 'ros'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extensions ['python_setup_py']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/materials/textures) by extension 'python_setup_py'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extensions ['cmake', 'python']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extension 'cmake'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extension 'python'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/meshes) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Reflective table/thumbnails) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/meshes) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/Sofa/thumbnails) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/meshes) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/VisitorChair/thumbnails) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extension 'colcon_meta'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extensions ['ros']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extension 'ros'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extensions ['cmake', 'python']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extension 'cmake'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extension 'python'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extensions ['python_setup_py']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(ign_models/mycar_description) by extension 'python_setup_py'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(map) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_gazebo_sim) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_gazebo_sim' with type 'ros.ament_cmake' and name 'demo_gazebo_sim'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_description) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycar_description' with type 'ros.ament_cmake' and name 'mycar_description'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_localization) by extension 'ros'
+[0.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycar_localization' with type 'ros.ament_cmake' and name 'mycar_localization'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extension 'ignore_ament_install'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extensions ['colcon_pkg']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extension 'colcon_pkg'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extensions ['colcon_meta']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extension 'colcon_meta'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extensions ['ros']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_map_server) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycar_map_server' with type 'ros.ament_cmake' and name 'mycar_map_server'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_navigation2) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycar_navigation2' with type 'ros.ament_cmake' and name 'mycar_navigation2'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extension 'ignore_ament_install'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extensions ['colcon_pkg']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extension 'colcon_pkg'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extensions ['colcon_meta']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extension 'colcon_meta'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extensions ['ros']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/mycar_slam_slam_toolbox) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mycar_slam_slam_toolbox' with type 'ros.ament_cmake' and name 'mycar_slam_slam_toolbox'
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.248s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/xiaofang/ROS2_WS/ws03_nav_sim/install
+[0.248s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /opt/cv_bridge_fix_link-humble/install
+[0.249s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 340 installed packages in /opt/ros/humble
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_target' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.278s] Level 5:colcon.colcon_core.verb:set package 'demo_gazebo_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.278s] DEBUG:colcon.colcon_core.verb:Building package 'demo_gazebo_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim', 'merge_install': False, 'path': '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/demo_gazebo_sim', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'mycar_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description', 'merge_install': False, 'path': '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_description', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_map_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'mycar_map_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server', 'merge_install': False, 'path': '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_map_server', 'symlink_install': False, 'test_result_base': None}
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.279s] Level 5:colcon.colcon_core.verb:set package 'mycar_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.279s] DEBUG:colcon.colcon_core.verb:Building package 'mycar_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2', 'merge_install': False, 'path': '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_slam_slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'mycar_slam_slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox', 'merge_install': False, 'path': '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_slam_slam_toolbox', 'symlink_install': False, 'test_result_base': None}
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'cmake_args' from command line to '['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON']'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'cmake_target' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.280s] Level 5:colcon.colcon_core.verb:set package 'mycar_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.280s] DEBUG:colcon.colcon_core.verb:Building package 'mycar_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_EXPORT_COMPILE_COMMANDS=ON'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization', 'merge_install': False, 'path': '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_localization', 'symlink_install': False, 'test_result_base': None}
+[0.280s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.281s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.281s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_map_server' with build type 'ament_cmake'
+[0.281s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_map_server'
+[0.283s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.283s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.283s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.286s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/demo_gazebo_sim' with build type 'ament_cmake'
+[0.286s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/demo_gazebo_sim'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.292s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_description' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_description'
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_navigation2' with build type 'ament_cmake'
+[0.297s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_navigation2'
+[0.297s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.297s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_slam_slam_toolbox' with build type 'ament_cmake'
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_slam_slam_toolbox'
+[0.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server -- -j20 -l20
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim -- -j20 -l20
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description -- -j20 -l20
+[0.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_navigation2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2
+[0.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox -- -j20 -l20
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description -- -j20 -l20
+[0.377s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim -- -j20 -l20
+[0.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim
+[0.382s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server -- -j20 -l20
+[0.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server
+[0.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_description)
+[0.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox -- -j20 -l20
+[0.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox
+[0.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_description
+[0.399s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description' for CMake module files
+[0.401s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description' for CMake config files
+[0.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_description', 'cmake_prefix_path')
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.sh'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/bin'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/lib/pkgconfig/mycar_description.pc'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/lib/python3.10/site-packages'
+[0.407s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/bin'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.ps1'
+[0.408s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.dsv'
+[0.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.sh'
+[0.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.bash'
+[0.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.zsh'
+[0.411s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/colcon-core/packages/mycar_description)
+[0.411s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_description)
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description' for CMake module files
+[0.412s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description' for CMake config files
+[0.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_description', 'cmake_prefix_path')
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.ps1'
+[0.412s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.dsv'
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/hook/cmake_prefix_path.sh'
+[0.413s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/bin'
+[0.413s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/lib/pkgconfig/mycar_description.pc'
+[0.413s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/lib/python3.10/site-packages'
+[0.413s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/bin'
+[0.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.ps1'
+[0.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.dsv'
+[0.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.sh'
+[0.414s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.bash'
+[0.415s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/mycar_description/package.zsh'
+[0.415s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description/share/colcon-core/packages/mycar_description)
+[0.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_map_server)
+[0.416s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server' for CMake module files
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_map_server
+[0.417s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server' for CMake config files
+[0.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_map_server', 'cmake_prefix_path')
+[0.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.ps1'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.dsv'
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.sh'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/bin'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/lib/pkgconfig/mycar_map_server.pc'
+[0.418s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/lib/python3.10/site-packages'
+[0.419s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/bin'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.ps1'
+[0.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.dsv'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.sh'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.bash'
+[0.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.zsh'
+[0.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/colcon-core/packages/mycar_map_server)
+[0.421s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_map_server)
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server' for CMake module files
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server' for CMake config files
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_map_server', 'cmake_prefix_path')
+[0.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/hook/cmake_prefix_path.sh'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/bin'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/lib/pkgconfig/mycar_map_server.pc'
+[0.422s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/lib/python3.10/site-packages'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/bin'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.ps1'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.dsv'
+[0.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.sh'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.bash'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/mycar_map_server/package.zsh'
+[0.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server/share/colcon-core/packages/mycar_map_server)
+[0.424s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_slam_slam_toolbox)
+[0.425s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox' for CMake module files
+[0.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_slam_slam_toolbox
+[0.426s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox' for CMake config files
+[0.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_slam_slam_toolbox', 'cmake_prefix_path')
+[0.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.ps1'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.dsv'
+[0.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.sh'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/bin'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/lib/pkgconfig/mycar_slam_slam_toolbox.pc'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/lib/python3.10/site-packages'
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/bin'
+[0.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.dsv'
+[0.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.sh'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.bash'
+[0.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.zsh'
+[0.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/colcon-core/packages/mycar_slam_slam_toolbox)
+[0.431s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_slam_slam_toolbox)
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox' for CMake module files
+[0.432s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox' for CMake config files
+[0.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_slam_slam_toolbox', 'cmake_prefix_path')
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.ps1'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.dsv'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/hook/cmake_prefix_path.sh'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/bin'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/lib/pkgconfig/mycar_slam_slam_toolbox.pc'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/lib/python3.10/site-packages'
+[0.434s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/bin'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.ps1'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.sh'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.bash'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/mycar_slam_slam_toolbox/package.zsh'
+[0.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox/share/colcon-core/packages/mycar_slam_slam_toolbox)
+[0.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_gazebo_sim)
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim' for CMake module files
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim' for CMake config files
+[0.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/demo_gazebo_sim
+[0.439s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_gazebo_sim', 'cmake_prefix_path')
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.sh'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/bin'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/lib/pkgconfig/demo_gazebo_sim.pc'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/lib/python3.10/site-packages'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/bin'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.sh'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.bash'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.zsh'
+[0.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/colcon-core/packages/demo_gazebo_sim)
+[0.443s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_gazebo_sim)
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim' for CMake module files
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim' for CMake config files
+[0.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_gazebo_sim', 'cmake_prefix_path')
+[0.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.ps1'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.dsv'
+[0.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/hook/cmake_prefix_path.sh'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/bin'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/lib/pkgconfig/demo_gazebo_sim.pc'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/lib/python3.10/site-packages'
+[0.445s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/bin'
+[0.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.ps1'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.dsv'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.sh'
+[0.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.bash'
+[0.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/demo_gazebo_sim/package.zsh'
+[0.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim/share/colcon-core/packages/demo_gazebo_sim)
+[0.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_localization' with build type 'ament_cmake'
+[0.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_localization'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization -- -j20 -l20
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization' returned '0': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization -- -j20 -l20
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization
+[0.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_localization)
+[0.511s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization' for CMake module files
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization' returned '0': CMAKE_PREFIX_PATH=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_map_server:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_slam_slam_toolbox:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_description:/home/xiaofang/ROS2_WS/ws03_nav_sim/install/demo_gazebo_sim:/opt/cv_bridge_fix_link-humble/install/vision_opencv:/opt/cv_bridge_fix_link-humble/install/image_geometry:/opt/cv_bridge_fix_link-humble/install/cv_bridge:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_localization
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization' for CMake config files
+[0.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_localization', 'cmake_prefix_path')
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/hook/cmake_prefix_path.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/hook/cmake_prefix_path.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/hook/cmake_prefix_path.sh'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/bin'
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/lib/pkgconfig/mycar_localization.pc'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/lib/python3.10/site-packages'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/bin'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.ps1'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.sh'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.bash'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.zsh'
+[0.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/colcon-core/packages/mycar_localization)
+[0.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_localization)
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization' for CMake module files
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization' for CMake config files
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_localization', 'cmake_prefix_path')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/hook/cmake_prefix_path.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/hook/cmake_prefix_path.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/hook/cmake_prefix_path.sh'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/bin'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/lib/pkgconfig/mycar_localization.pc'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/lib/python3.10/site-packages'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/bin'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.sh'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.bash'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.zsh'
+[0.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/colcon-core/packages/mycar_localization)
+[1.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake /home/xiaofang/ROS2_WS/ws03_nav_sim/src/mycar_navigation2 -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2
+[1.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2 -- -j20 -l20
+[1.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2 -- -j20 -l20
+[1.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2
+[1.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_navigation2)
+[1.092s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2' for CMake module files
+[1.093s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --install /home/xiaofang/ROS2_WS/ws03_nav_sim/build/mycar_navigation2
+[1.093s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2' for CMake config files
+[1.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_navigation2', 'cmake_prefix_path')
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.ps1'
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.dsv'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.sh'
+[1.096s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/bin'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/lib/pkgconfig/mycar_navigation2.pc'
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/lib/python3.10/site-packages'
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/bin'
+[1.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.ps1'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.sh'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.bash'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.zsh'
+[1.103s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/colcon-core/packages/mycar_navigation2)
+[1.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mycar_navigation2)
+[1.104s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2' for CMake module files
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2' for CMake config files
+[1.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('mycar_navigation2', 'cmake_prefix_path')
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/hook/cmake_prefix_path.sh'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/bin'
+[1.109s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/lib/pkgconfig/mycar_navigation2.pc'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/lib/python3.10/site-packages'
+[1.110s] Level 1:colcon.colcon_core.environment:checking '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/bin'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.ps1'
+[1.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.dsv'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.sh'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.bash'
+[1.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/mycar_navigation2/package.zsh'
+[1.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_navigation2/share/colcon-core/packages/mycar_navigation2)
+[1.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.115s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.115s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.131s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.135s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.135s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.136s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/local_setup.ps1'
+[1.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/_local_setup_util_ps1.py'
+[1.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/setup.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/local_setup.sh'
+[1.145s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/_local_setup_util_sh.py'
+[1.146s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/setup.sh'
+[1.147s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/local_setup.bash'
+[1.148s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/setup.bash'
+[1.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/local_setup.zsh'
+[1.151s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/xiaofang/ROS2_WS/ws03_nav_sim/install/setup.zsh'

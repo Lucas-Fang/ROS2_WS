@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/launch
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/launch/mycar_loca.launch.py
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/params
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/params/amcl.yaml
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/ament_index/resource_index/package_run_dependencies/mycar_localization
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/ament_index/resource_index/parent_prefix_path/mycar_localization
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/environment/ament_prefix_path.sh
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/environment/path.sh
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/environment/path.dsv
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/local_setup.bash
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/local_setup.sh
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/local_setup.zsh
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/local_setup.dsv
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.dsv
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/ament_index/resource_index/packages/mycar_localization
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/cmake/mycar_localizationConfig.cmake
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/cmake/mycar_localizationConfig-version.cmake
+-- Up-to-date: /home/xiaofang/ROS2_WS/ws03_nav_sim/install/mycar_localization/share/mycar_localization/package.xml

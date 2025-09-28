@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/xiaofang/ROS2_WS/ws03_nav_sim/src/demo_gazebo_sim/launch": No such
+  file or directory.
+
+[0m
