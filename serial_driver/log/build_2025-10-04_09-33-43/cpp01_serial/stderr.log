@@ -1,0 +1,9 @@
+/usr/bin/ld: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o: in function `parse_data(unsigned char const*, unsigned long)':
+demo01_uart_send.cpp:(.text+0x2e8): undefined reference to `Get_CRC16(unsigned char const*, unsigned short)'
+/usr/bin/ld: demo01_uart_send.cpp:(.text+0x335): undefined reference to `combine_bytes(unsigned char const*)'
+/usr/bin/ld: demo01_uart_send.cpp:(.text+0x352): undefined reference to `combine_bytes(unsigned char const*)'
+/usr/bin/ld: demo01_uart_send.cpp:(.text+0x36f): undefined reference to `combine_bytes(unsigned char const*)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:241: demo01_uart_send] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo01_uart_send.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

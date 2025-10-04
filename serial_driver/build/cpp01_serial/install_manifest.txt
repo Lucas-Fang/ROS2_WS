@@ -1,4 +1,6 @@
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/lib/cpp01_serial/libmy_serial_lib.a
 /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/lib/cpp01_serial/demo01_uart_send
+/home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/include//crc16.h
 /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/ament_index/resource_index/package_run_dependencies/cpp01_serial
 /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/ament_index/resource_index/parent_prefix_path/cpp01_serial
 /home/xiaofang/ROS2_WS/serial_driver/install/cpp01_serial/share/cpp01_serial/environment/ament_prefix_path.sh

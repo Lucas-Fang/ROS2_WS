@@ -30,19 +30,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 13,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 24,
+				"line" : 44,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 18,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -50,6 +50,12 @@
 				"file" : 1,
 				"line" : 151,
 				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 41,
+				"parent" : 0
 			},
 			{
 				"command" : 2,
@@ -66,7 +72,7 @@
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 14,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -89,179 +95,179 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"fragment" : "-Wall"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"fragment" : "-Wextra"
 				},
 				{
-					"backtrace" : 6,
+					"backtrace" : 7,
 					"fragment" : "-Wpedantic"
 				}
 			],
 			"defines" : 
 			[
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 7,
+					"backtrace" : 8,
 					"path" : "/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/include"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "/opt/ros/humble/include"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "/opt/ros/humble/include/rclcpp_components"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"path" : "/opt/ros/humble/include/rclcpp_lifecycle"
 				},
 				{
-					"backtrace" : 9,
+					"backtrace" : 10,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rclcpp"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/std_msgs"
 				},
 				{
-					"backtrace" : 8,
+					"backtrace" : 9,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/udp_msgs"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/ament_index_cpp"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/libstatistics_collector"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/builtin_interfaces"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_runtime_c"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcutils"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_interface"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/fastcdr"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_runtime_cpp"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rmw"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_fastrtps_c"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_introspection_c"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_introspection_cpp"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl_interfaces"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl_logging_interface"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcl_yaml_param_parser"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/libyaml_vendor"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/tracetools"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rcpputils"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/statistics_msgs"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosgraph_msgs"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_cpp"
 				},
 				{
-					"backtrace" : 5,
+					"backtrace" : 6,
 					"isSystem" : true,
 					"path" : "/opt/ros/humble/include/rosidl_typesupport_c"
 				},
@@ -291,6 +297,13 @@
 			[
 				0
 			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "my_serial_lib::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "demo01_uart_send::@6890427a1f51a3e7e1df",
@@ -641,11 +654,6 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 5,
-				"fragment" : "/opt/ros/humble/lib/librclcpp.so",
-				"role" : "libraries"
-			},
-			{
 				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librcl_lifecycle.so",
 				"role" : "libraries"
@@ -741,6 +749,50 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 5,
+				"fragment" : "libmy_serial_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libudp_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/opt/ros/humble/lib/librclcpp.so",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/liblibstatistics_collector.so",
 				"role" : "libraries"
@@ -827,30 +879,6 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libudp_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librcl.so",
 				"role" : "libraries"
 			},
@@ -861,17 +889,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
 				"role" : "libraries"
 			},
 			{
@@ -881,27 +899,12 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -917,21 +920,6 @@
 			{
 				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
@@ -970,7 +958,17 @@
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so",
 				"role" : "libraries"
 			},
 			{
@@ -990,6 +988,16 @@
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so",
 				"role" : "libraries"
 			},
@@ -1000,12 +1008,22 @@
 			},
 			{
 				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
 				"fragment" : "/opt/ros/humble/lib/librosidl_typesupport_cpp.so",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_c.so",
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
 				"role" : "libraries"
 			},
 			{
@@ -1020,12 +1038,7 @@
 			},
 			{
 				"backtrace" : 4,
-				"fragment" : "/opt/ros/humble/lib/liblifecycle_msgs__rosidl_generator_c.so",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 4,
-				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.10.so",
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so",
 				"role" : "libraries"
 			},
 			{
@@ -1041,6 +1054,11 @@
 			{
 				"backtrace" : 4,
 				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.10.so",
 				"role" : "libraries"
 			}
 		],

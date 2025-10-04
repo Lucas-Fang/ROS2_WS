@@ -198,6 +198,19 @@ cpp01_serial_uninstall/fast:
 .PHONY : cpp01_serial_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named my_serial_lib
+
+# Build rule for target.
+my_serial_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_serial_lib
+.PHONY : my_serial_lib
+
+# fast build rule for target.
+my_serial_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_serial_lib.dir/build.make CMakeFiles/my_serial_lib.dir/build
+.PHONY : my_serial_lib/fast
+
+#=============================================================================
 # Target rules for targets named demo01_uart_send
 
 # Build rule for target.
@@ -209,6 +222,30 @@ demo01_uart_send: cmake_check_build_system
 demo01_uart_send/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo01_uart_send.dir/build.make CMakeFiles/demo01_uart_send.dir/build
 .PHONY : demo01_uart_send/fast
+
+src/crc16.o: src/crc16.cpp.o
+.PHONY : src/crc16.o
+
+# target to build an object file
+src/crc16.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_serial_lib.dir/build.make CMakeFiles/my_serial_lib.dir/src/crc16.cpp.o
+.PHONY : src/crc16.cpp.o
+
+src/crc16.i: src/crc16.cpp.i
+.PHONY : src/crc16.i
+
+# target to preprocess a source file
+src/crc16.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_serial_lib.dir/build.make CMakeFiles/my_serial_lib.dir/src/crc16.cpp.i
+.PHONY : src/crc16.cpp.i
+
+src/crc16.s: src/crc16.cpp.s
+.PHONY : src/crc16.s
+
+# target to generate assembly for a file
+src/crc16.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_serial_lib.dir/build.make CMakeFiles/my_serial_lib.dir/src/crc16.cpp.s
+.PHONY : src/crc16.cpp.s
 
 src/demo01_uart_send.o: src/demo01_uart_send.cpp.o
 .PHONY : src/demo01_uart_send.o
@@ -250,6 +287,10 @@ help:
 	@echo "... cpp01_serial_uninstall"
 	@echo "... uninstall"
 	@echo "... demo01_uart_send"
+	@echo "... my_serial_lib"
+	@echo "... src/crc16.o"
+	@echo "... src/crc16.i"
+	@echo "... src/crc16.s"
 	@echo "... src/demo01_uart_send.o"
 	@echo "... src/demo01_uart_send.i"
 	@echo "... src/demo01_uart_send.s"

@@ -1,0 +1,13 @@
+[01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:84:13:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   84 |   Get_CRC16([01;31m[Kargc[m[K, 5); // 测试 CRC16 函数;
+      |             [01;31m[K^~~~[m[K
+      |             [01;31m[K|[m[K
+      |             [01;31m[Kint[m[K
+In file included from [01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:7[m[K:
+[01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/include/crc16.h:13:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kuint16_t Get_CRC16(uint8_t*, uint16_t)[m[K’
+   13 | uint16_t Get_CRC16([01;36m[Kuint8_t *ptr[m[K, uint16_t len);
+      |                    [01;36m[K~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo01_uart_send.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

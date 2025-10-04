@@ -1,0 +1,18 @@
+[0.008s] Invoking command in '/home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial -- -j20 -l20
+[0.056s] [ 50%] Built target my_serial_lib
+[0.069s] [35m[1mConsolidate compiler generated dependencies of target demo01_uart_send[0m
+[0.089s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o[0m
+[1.931s] [01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.931s] [01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:84:13:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.932s]    84 |   Get_CRC16([01;31m[Kargc[m[K, 5); // 测试 CRC16 函数;
+[1.932s]       |             [01;31m[K^~~~[m[K
+[1.932s]       |             [01;31m[K|[m[K
+[1.932s]       |             [01;31m[Kint[m[K
+[1.932s] In file included from [01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/src/demo01_uart_send.cpp:7[m[K:
+[1.932s] [01m[K/home/xiaofang/ROS2_WS/serial_driver/src/cpp01_serial/include/crc16.h:13:29:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kuint16_t Get_CRC16(uint8_t*, uint16_t)[m[K’
+[1.932s]    13 | uint16_t Get_CRC16([01;36m[Kuint8_t *ptr[m[K, uint16_t len);
+[1.932s]       |                    [01;36m[K~~~~~~~~~^~~[m[K
+[2.254s] gmake[2]: *** [CMakeFiles/demo01_uart_send.dir/build.make:76: CMakeFiles/demo01_uart_send.dir/src/demo01_uart_send.cpp.o] Error 1
+[2.254s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/demo01_uart_send.dir/all] Error 2
+[2.255s] gmake: *** [Makefile:146: all] Error 2
+[2.256s] Invoked command in '/home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/cv_bridge_fix_link-humble/install/opencv_tests:/opt/ros/humble /usr/bin/cmake --build /home/xiaofang/ROS2_WS/serial_driver/build/cpp01_serial -- -j20 -l20
